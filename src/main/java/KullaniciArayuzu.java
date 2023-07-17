@@ -12,6 +12,7 @@ public class KullaniciArayuzu extends JFrame {
     private List<Siparis> siparisler;
 
     public KullaniciArayuzu() {
+
         fabrika = new Fabrika();
         musteriler = new ArrayList<>();
         siparisler = new ArrayList<>();
@@ -103,12 +104,17 @@ public class KullaniciArayuzu extends JFrame {
         setVisible(true);
     }
 
-    public static void main(String[] args) {
+    public void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
+
             public void run() {
                 new KullaniciArayuzu();
             }
         });
+
+       
     }
-}
+
+
+    }
 
