@@ -112,9 +112,8 @@ public class KullaniciArayuzu extends JFrame {
             }
         });
 
-       
-    }
-
 
     }
 
+
+}
