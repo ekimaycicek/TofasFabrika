@@ -15,7 +15,6 @@ public class UserInterface extends JFrame {
 
 
 
-
         factory = new Factory();
         customers = new List();
         orders = new List();
