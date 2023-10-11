@@ -22,6 +22,7 @@ public class UserInterface extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
+
         JPanel panel = new JPanel(new GridLayout(6, 2));
 
         JLabel modelLabel = new JLabel("Car Model:");
