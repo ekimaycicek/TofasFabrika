@@ -28,7 +28,6 @@ public class UserInterface extends JFrame {
 
 
 
-
         JPanel panel = new JPanel(new GridLayout(6, 2));
 
         JLabel modelLabel = new JLabel("Car Model:");
