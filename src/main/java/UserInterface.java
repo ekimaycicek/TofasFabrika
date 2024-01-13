@@ -26,7 +26,6 @@ public class UserInterface extends JFrame {
 
 
 
-
         JLabel modelLabel = new JLabel("Car Model:");
         JTextField modelField = new JTextField();
         JLabel engineTypeLabel = new JLabel("Engine Type:");
