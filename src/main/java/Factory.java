@@ -11,6 +11,7 @@ public class Factory {
 
 
 
+
     public void addCar(Car car) {
         cars.add(car);
         System.out.println("New car added: " + car.getModel());
